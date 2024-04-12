@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 96%;
+}
+
+.contant {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 8vw;
+}
+
+.left h1 {
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+
+.left h1 span {
+    color: lightseagreen;
+}
+
+.left p {
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+
+.right {
+    height: 100%;
+    width: 45%;
+}
+
+.right img{
+    height: 90%;
+    width: 100%;
+}
+
+.icon {
+    width: 1000px;
+    height: 100px;
+    height: auto;
+    font-size: 5.73em
+}
+
+@media (max-width:600px) {
+    .nav {
+        padding: 0 5vw;
+        height: 60px;
+    }
+    .nav h2{
+        font-size: 5.1vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+
+    .nav button {
+        display: none;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 4.5vw;
+    }
+
+    .contant {
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: 50%;
+        padding: 4vw 6vw;
+    }
+
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+
+    .left h1 {
+        font-size: 6vw;
+        line-height: 11vw;
+    }
+
+    .left p {
+        font-size: 2.9vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        /* display: none; */
+    }
+
+    .contant button {
+        padding: 3vw 6vw;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    font-weight: 540;
+    /* width: 1000px;
+    height: 200px; */
+    padding-top: 50px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+}
+
+.aboutMe {
+    padding-bottom: 4vh;
+}
